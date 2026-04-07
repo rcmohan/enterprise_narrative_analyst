@@ -1,0 +1,21 @@
+name: analyst
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - fastapi
+  - uvicorn
+  - sqlalchemy
+  - asyncpg
+  - pydantic
+  - pydantic-settings
+  - tiktoken
+  - openai
+  - pytest
+  - pytest-asyncio
+  - httpx
+  - pip
+  - pip:
+    - pgvector
+    - pdfplumber

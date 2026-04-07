@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Plans
+plans/
+
+# Context
+CONTEXT.md
+
+# Agents
+.agents/rules/*

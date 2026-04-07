@@ -1,0 +1,18 @@
+[project]
+name = "enterprise_narrative_analyst"
+version = "0.1.0"
+description = "Enterprise Narrative Analyst"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy[asyncio]",
+    "asyncpg",
+    "pgvector",
+    "pydantic-settings",
+    "pydantic",
+    "pdfplumber",
+    "tiktoken",
+    "openai"
+]
